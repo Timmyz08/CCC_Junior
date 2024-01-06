@@ -1,7 +1,7 @@
 x = int(input())
 y = int(input())
 z = int(input())
-if(x+y+z>180):
+if(x+y+z!=180):
     print("Error") 
 elif (x == 60 and y == 60 and z ==60):
         print("Equilateral")
