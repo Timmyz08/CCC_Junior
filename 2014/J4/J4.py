@@ -1,16 +1,16 @@
-no_of_friend = int(input()) 
-friendList = []
-for i in range(no_of_friend): 
-    friendList.append(i+1)
+n = int(input())
+x = []
+for i in range(1, n+1, 1):
+    x.append(i)
 
-rounds = int(input()) 
-for i in range(rounds):
-    r = int(input()) 
-    selected_friends = []
-    for j in range(len(friendList)): 
-        if (j+1)%r != 0:
-            selected_friends.append(friendList[j])
-            friendList = selected_friends
+M = int(input())
+for i in range(M):
+    cn = int(input())
+    list2 = []
+    for j in range(len(x)):
+        if (j+1)%cn != 0:
+            list2.append(x[j])
+    x = list2
 
-for i in friendList: 
-    print(i)
+for x in x:
+    print(x)
