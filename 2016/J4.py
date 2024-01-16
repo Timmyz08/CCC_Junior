@@ -1,40 +1,36 @@
-arr = []
-x = input().replace(":"," ")
-arr = list(map(int,x.split()))
+slow1s = 7*60
+slow1e = 10*60
+slow2s = 15*60
+slow2e = 19*60
 
-time = 120
-ans = 0
-if((arr[0]+2)*60 + arr[1]>7*60 and (arr[0]+2)*60 + arr[1]<10*60 or (arr[0]+2)*60 + arr[1]>15*60 and (arr[0]+2)*60 + arr[1]<19*60):
-    if((arr[0]+2)*60 + arr[1]>7*60 and (arr[0]+2)*60 + arr[1]<10*60):
-        lefttime = (arr[0]+2)*60 + arr[1] - 7*60
-        print(lefttime)
-        if(lefttime <120):
-            ans = (arr[0])*60 + arr[1] + (7*60-(arr[0])*60 + arr[1])+lefttime*2
-            
-        if(lefttime >= 120):
-            nonehalftime = lefttime - 180
-            ans =(arr[0])*60 + arr[1] + 120*2 + nonehalftime // 2
-            
-    if((arr[0]+2)*60 + arr[1]>15*60 and (arr[0]+2)*60 + arr[1]>19*60):
-        lefttime = (arr[0]+2)*60 + arr[1] - 15*60
-        
-        if(lefttime <=120):
-            ans = (arr[0])*60 + arr[1] + (15*60-(arr[0])*60 + arr[1])+lefttime*2
-            
-        if(lefttime > 120):
-            nonehalftime = lefttime - 180
-            ans =(arr[0])*60 + arr[1] + 120*2 + nonehalftime // 2
-            
-else :
-    ans +=(arr[0]+2)*60 + arr[1]
+sinput = input().split(":")
+startt = int(sinput[0])*60 + int(sinput[1])
 
-a = ans%60
-b = (ans-ans%60) // 60
-if(b>= 24):
-    b -= 24
-if(b<10):
-    b = "0" + str(b)
-if(a==0):
-    a = "0" + str(a)
+D = 240
+while D > 0:
+    if startt > slow1s and startt < slow1e:
+        D -= 1
+    elif startt > slow2s and startt < slow2e:
+        D -= 1
+    else:
+        D -= 2
+    startt += 1
 
-print(str (b) + ":" + str(a))
+if startt %10 == 9:
+    startt += 1
+
+s = ""
+h = startt//60%24
+m = startt%60
+
+if h < 10:
+    s = "0"+str(h)+":"
+else:
+    s = str(h) + ":"
+
+if m < 10:
+    s += "0"+str(m)
+else:
+    s += str(m)
+
+print(s)
