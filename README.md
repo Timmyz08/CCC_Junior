@@ -8,7 +8,7 @@
 | 2014   | [Triangle Times](./2014/J1/J1.md)| [Vote Count](./2014/J2/J2.md)| [Double Dice](./2014/J3/J3.md)| [Party Invitation](./2014/J4/J4.md)| [J5](./2014/J5/J5.md)|
 | 2015   | [Special Day](./2015/J1/J1.md)| [Happy or Sad](./2015/J2/J2.md)| [J3](./2015/J3/J3.md)| [J4](./2015/J4/J4.md)| [J5](./2015/J5/J5.md)|
 | 2016   | [Tournament Selection](./2016/J1/J1.md)| [J2](./2016/J2/J2.md)| [J3](./2016/J3/J3.md)| [Arrival Time](./2016/J4/J4.md)| [J5](./2016/J5/J5.md)|
-| 2017   | [Quadrant Selection](./2017/J1/J1.md)| [J2](./2017/J2/J2.md)| [J3](./2017/J3/J3.md)| [J4](./2017/J4/J4.md)| [J5](./2017/J5/J5.md)|
+| 2017   | [Quadrant Selection](./2017/J1/J1.md)| [Shifty Sum](./2017/J2/J2.md)| [Hidden Palindrome](./2017/J3/J3.md)| [J4](./2017/J4/J4.md)| [J5](./2017/J5/J5.md)|
 | 2018   | [J1](./2018/J1/J1.md)| [J2](./2018/J2/J2.md)| [J3](./2018/J3/J3.md)| [J4](./2018/J4/J4.md)| [J5](./2018/J5/J5.md)|
 | 2019   | [J1](./2019/J1/J1.md)| [J2](./2019/J2/J2.md)| [J3](./2019/J3/J3.md)| [J4](./2019/J4/J4.md)| [J5](./2019/J5/J5.md)|
 | 2020   | [J1](./2020/J1/J1.md)| [J2](./2020/J2/J2.md)| [J3](./2020/J3/J3.md)| [J4](./2020/J4/J4.md)| [J5](./2020/J5/J5.md)|
@@ -25,7 +25,7 @@
 | 2014   | [Triangle Times(If-else)](./2014/J1/J1.py)| [Vote Count](./2014/J2/J2.py)| [Double Dice](./2014/J3/J3.py)| [Party Invitation](./2014/J4/J4.py)| [J5](./2014/J5/J5.py)|
 | 2015   | [Special Day](./2015/J1/J1.py)| [Happy or Sad](./2015/J2/J2.py)| [J3](./2015/J3/J3.py)| [J4](./2015/J4/J4.py)| [J5](./2015/J5/J5.py)|
 | 2016   | [Tournament Selection](./2016/J1/J1.py)| [J2](./2016/J2/J2.py)| [J3](./2016/J3/J3.py)| [Arrival Time](./2016/J4/J4.py)| [J5](./2016/J5/J5.py)|
-| 2017   | [Quadrant Selection](./2017/J1/J1.py)| [J2](./2017/J2/J2.py)| [J3](./2017/J3/J3.py)| [J4](./2017/J4/J4.py)| [J5](./2017/J5/J5.py)|
+| 2017   | [Quadrant Selection](./2017/J1/J1.py)| [Shifty Sum](./2017/J2/J2.py)| [Hidden Palindrome](./2017/J3/J3.py)| [J4](./2017/J4/J4.py)| [J5](./2017/J5/J5.py)|
 | 2018   | [J1](./2018/J1/J1.py)| [J2](./2018/J2/J2.py)| [J3](./2018/J3/J3.py)| [J4](./2018/J4/J4.py)| [J5](./2018/J5/J5.py)|
 | 2019   | [J1](./2019/J1/J1.py)| [J2](./2019/J2/J2.py)| [J3](./2019/J3/J3.py)| [J4](./2019/J4/J4.py)| [J5](./2019/J5/J5.py)|
 | 2020   | [J1](./2020/J1/J1.py)| [J2](./2020/J2/J2.py)| [J3](./2020/J3/J3.py)| [J4](./2020/J4/J4.py)| [J5](./2020/J5/J5.py)|
