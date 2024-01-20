@@ -1,0 +1,4 @@
+
+
+
+def checkisfavorate(hour,minute):
